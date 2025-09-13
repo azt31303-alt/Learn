@@ -1,0 +1,7 @@
+{
+  "name": "Bangla Pathshala",
+  "description": "An interactive educational app for learning the Bangla and English alphabets and numbers. Features include visual cards, example words, and audio pronunciation for an immersive learning experience.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

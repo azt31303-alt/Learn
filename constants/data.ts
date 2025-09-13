@@ -1,0 +1,92 @@
+
+import { LearningItem } from '../types';
+
+export const banglaVowels: LearningItem[] = [
+  { character: 'অ', word: 'অজগর', englishPronunciation: 'Ojogor (Python)', image: 'https://picsum.photos/seed/ojogor/200' },
+  { character: 'আ', word: 'আম', englishPronunciation: 'Aam (Mango)', image: 'https://picsum.photos/seed/aam/200' },
+  { character: 'ই', word: 'ইঁদুর', englishPronunciation: 'Indur (Mouse)', image: 'https://picsum.photos/seed/indur/200' },
+  { character: 'ঈ', word: 'ঈগল', englishPronunciation: 'Egol (Eagle)', image: 'https://picsum.photos/seed/egol/200' },
+  { character: 'উ', word: 'উট', englishPronunciation: 'Uut (Camel)', image: 'https://picsum.photos/seed/uut/200' },
+  { character: 'ঊ', word: 'ঊষা', englishPronunciation: 'Usha (Dawn)', image: 'https://picsum.photos/seed/usha/200' },
+  { character: 'ঋ', word: 'ঋষি', englishPronunciation: 'Rishi (Sage)', image: 'https://picsum.photos/seed/rishi/200' },
+  { character: 'এ', word: 'একতারা', englishPronunciation: 'Ektara (Musical Instrument)', image: 'https://picsum.photos/seed/ektara/200' },
+  { character: 'ঐ', word: 'ঐরাবত', englishPronunciation: 'Oirabot (Mythical Elephant)', image: 'https://picsum.photos/seed/oirabot/200' },
+  { character: 'ও', word: 'ওজন', englishPronunciation: 'Ojon (Weight)', image: 'https://picsum.photos/seed/ojon/200' },
+  { character: 'ঔ', word: 'ঔষধ', englishPronunciation: 'Oushodh (Medicine)', image: 'https://picsum.photos/seed/oushodh/200' },
+];
+
+export const banglaConsonants: LearningItem[] = [
+  { character: 'ক', word: 'কলম', englishPronunciation: 'Kolom (Pen)', image: 'https://picsum.photos/seed/kolom/200' },
+  { character: 'খ', word: 'খরগোশ', englishPronunciation: 'Khorgosh (Rabbit)', image: 'https://picsum.photos/seed/khorgosh/200' },
+  { character: 'গ', word: 'গরু', englishPronunciation: 'Goru (Cow)', image: 'https://picsum.photos/seed/goru/200' },
+  { character: 'ঘ', word: 'ঘড়ি', englishPronunciation: 'Ghori (Clock)', image: 'https://picsum.photos/seed/ghori/200' },
+  { character: 'ঙ', word: 'রঙ', englishPronunciation: 'Rong (Color)', image: 'https://picsum.photos/seed/rong/200' },
+  { character: 'চ', word: 'চশমা', englishPronunciation: 'Choshma (Glasses)', image: 'https://picsum.photos/seed/choshma/200' },
+  { character: 'ছ', word: 'ছাতা', englishPronunciation: 'Chata (Umbrella)', image: 'https://picsum.photos/seed/chata/200' },
+  { character: 'জ', word: 'জাহাজ', englishPronunciation: 'Jahaj (Ship)', image: 'https://picsum.photos/seed/jahaj/200' },
+  { character: 'ঝ', word: 'ঝিনুক', englishPronunciation: 'Jhinuk (Oyster)', image: 'https://picsum.photos/seed/jhinuk/200' },
+  { character: 'ঞ', word: 'মিঞা', englishPronunciation: 'Miya (Term of respect)', image: 'https://picsum.photos/seed/miya/200' },
+  { character: 'ট', word: 'টিয়া', englishPronunciation: 'Tiya (Parrot)', image: 'https://picsum.photos/seed/tiya/200' },
+  { character: 'ঠ', word: 'ঠোঁট', englishPronunciation: 'Thot (Lip)', image: 'https://picsum.photos/seed/thot/200' },
+  { character: 'ড', word: 'ডিম', englishPronunciation: 'Dim (Egg)', image: 'https://picsum.photos/seed/dim/200' },
+  { character: 'ঢ', word: 'ঢাক', englishPronunciation: 'Dhak (Drum)', image: 'https://picsum.photos/seed/dhak/200' },
+  { character: 'ণ', word: 'হরিণ', englishPronunciation: 'Horin (Deer)', image: 'https://picsum.photos/seed/horin/200' },
+  { character: 'ত', word: 'তরমুজ', englishPronunciation: 'Tormuj (Watermelon)', image: 'https://picsum.photos/seed/tormuj/200' },
+  { character: 'থ', word: 'থালা', englishPronunciation: 'Thala (Plate)', image: 'https://picsum.photos/seed/thala/200' },
+  { character: 'দ', word: 'দোয়াত', englishPronunciation: 'Doyat (Inkpot)', image: 'https://picsum.photos/seed/doyat/200' },
+  { character: 'ধ', word: 'ধনুক', englishPronunciation: 'Dhonuk (Bow)', image: 'https://picsum.photos/seed/dhonuk/200' },
+  { character: 'ন', word: 'নদী', englishPronunciation: 'Nodi (River)', image: 'https://picsum.photos/seed/nodi/200' },
+  { character: 'প', word: 'পাখি', englishPronunciation: 'Pakhi (Bird)', image: 'https://picsum.photos/seed/pakhi/200' },
+  { character: 'ফ', word: 'ফুল', englishPronunciation: 'Ful (Flower)', image: 'https://picsum.photos/seed/ful/200' },
+  { character: 'ব', word: 'বই', englishPronunciation: 'Boi (Book)', image: 'https://picsum.photos/seed/boi/200' },
+  { character: 'ভ', word: 'ভালুক', englishPronunciation: 'Bhaluk (Bear)', image: 'https://picsum.photos/seed/bhaluk/200' },
+  { character: 'ম', word: 'মাছ', englishPronunciation: 'Mach (Fish)', image: 'https://picsum.photos/seed/mach/200' },
+  { character: 'য', word: 'যাতা', englishPronunciation: 'Jata (Grindstone)', image: 'https://picsum.photos/seed/jata/200' },
+  { character: 'র', word: 'রাজা', englishPronunciation: 'Raja (King)', image: 'https://picsum.photos/seed/raja/200' },
+  { character: 'ল', word: 'লাটিম', englishPronunciation: 'Latim (Spinning Top)', image: 'https://picsum.photos/seed/latim/200' },
+  { character: 'শ', word: 'শশা', englishPronunciation: 'Shosha (Cucumber)', image: 'https://picsum.photos/seed/shosha/200' },
+  { character: 'ষ', word: 'ষাঁড়', englishPronunciation: 'Shar (Bull)', image: 'https://picsum.photos/seed/shar/200' },
+  { character: 'স', word: 'সিংহ', englishPronunciation: 'Singho (Lion)', image: 'https://picsum.photos/seed/singho/200' },
+  { character: 'হ', word: 'হাত', englishPronunciation: 'Haat (Hand)', image: 'https://picsum.photos/seed/haat/200' },
+  { character: 'ড়', word: 'গাড়ি', englishPronunciation: 'Gari (Car)', image: 'https://picsum.photos/seed/gari/200' },
+  { character: 'ঢ়', word: 'আষাঢ়', englishPronunciation: 'Asharh (Month)', image: 'https://picsum.photos/seed/asharh/200' },
+  { character: 'য়', word: 'পায়েরা', englishPronunciation: 'Payra (Pigeon)', image: 'https://picsum.photos/seed/payra/200' },
+  { character: 'ৎ', word: 'মৎস', englishPronunciation: 'Motsho (Fish)', image: 'https://picsum.photos/seed/motsho/200' },
+  { character: 'ং', word: 'সিং', englishPronunciation: 'Shing (Horn)', image: 'https://picsum.photos/seed/shing/200' },
+  { character: 'ঃ', word: 'দুঃখ', englishPronunciation: 'Dukkho (Sorrow)', image: 'https://picsum.photos/seed/dukkho/200' },
+  { character: 'ঁ', word: 'চাঁদ', englishPronunciation: 'Chand (Moon)', image: 'https://picsum.photos/seed/chand/200' },
+];
+
+export const englishAlphabet: LearningItem[] = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(char => ({
+  character: char,
+  word: {A:'Apple',B:'Ball',C:'Cat',D:'Dog',E:'Elephant',F:'Fish',G:'Goat',H:'Hat',I:'Ice Cream',J:'Jug',K:'Kite',L:'Lion',M:'Mango',N:'Nest',O:'Orange',P:'Pen',Q:'Queen',R:'Rabbit',S:'Sun',T:'Tiger',T_ALT:'Train',U:'Umbrella',V:'Van',W:'Watch',X:'X-ray',Y:'Yacht',Z:'Zebra'}[char],
+  englishPronunciation: char,
+  image: `https://picsum.photos/seed/${char.toLowerCase()}/200`,
+}));
+
+export const banglaNumbers: LearningItem[] = [
+  { character: '০', word: 'শূন্য', englishPronunciation: 'Shunno (Zero)', image: 'https://picsum.photos/seed/0/200' },
+  { character: '১', word: 'এক', englishPronunciation: 'Ek (One)', image: 'https://picsum.photos/seed/1/200' },
+  { character: '২', word: 'দুই', englishPronunciation: 'Dui (Two)', image: 'https://picsum.photos/seed/2/200' },
+  { character: '৩', word: 'তিন', englishPronunciation: 'Tin (Three)', image: 'https://picsum.photos/seed/3/200' },
+  { character: '৪', word: 'চার', englishPronunciation: 'Char (Four)', image: 'https://picsum.photos/seed/4/200' },
+  { character: '৫', word: 'পাঁচ', englishPronunciation: 'Pach (Five)', image: 'https://picsum.photos/seed/5/200' },
+  { character: '৬', word: 'ছয়', englishPronunciation: 'Choy (Six)', image: 'https://picsum.photos/seed/6/200' },
+  { character: '৭', word: 'সাত', englishPronunciation: 'Shat (Seven)', image: 'https://picsum.photos/seed/7/200' },
+  { character: '৮', word: 'আট', englishPronunciation: 'Aat (Eight)', image: 'https://picsum.photos/seed/8/200' },
+  { character: '৯', word: 'নয়', englishPronunciation: 'Noy (Nine)', image: 'https://picsum.photos/seed/9/200' },
+];
+
+export const englishNumbers: LearningItem[] = [
+  { character: '0', word: 'Zero', englishPronunciation: 'Zero', image: 'https://picsum.photos/seed/zero/200' },
+  { character: '1', word: 'One', englishPronunciation: 'One', image: 'https://picsum.photos/seed/one/200' },
+  { character: '2', word: 'Two', englishPronunciation: 'Two', image: 'https://picsum.photos/seed/two/200' },
+  { character: '3', word: 'Three', englishPronunciation: 'Three', image: 'https://picsum.photos/seed/three/200' },
+  { character: '4', word: 'Four', englishPronunciation: 'Four', image: 'https://picsum.photos/seed/four/200' },
+  { character: '5', word: 'Five', englishPronunciation: 'Five', image: 'https://picsum.photos/seed/five/200' },
+  { character: '6', word: 'Six', englishPronunciation: 'Six', image: 'https://picsum.photos/seed/six/200' },
+  { character: '7', word: 'Seven', englishPronunciation: 'Seven', image: 'https://picsum.photos/seed/seven/200' },
+  { character: '8', word: 'Eight', englishPronunciation: 'Eight', image: 'https://picsum.photos/seed/eight/200' },
+  { character: '9', word: 'Nine', englishPronunciation: 'Nine', image: 'https://picsum.photos/seed/nine/200' },
+  { character: '10', word: 'Ten', englishPronunciation: 'Ten', image: 'https://picsum.photos/seed/ten/200' },
+];
